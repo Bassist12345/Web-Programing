@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #bthp{
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        background-color: transparent;
+        border-style: solid;
+        border-color: rgb(0, 0, 0);
+        padding: 15px 40px;
+        color: rgb(0, 0, 0);
+        border-radius: 60px;
+    }
+    #bthp:hover{    
+        background-color: rgba(240, 248, 255, 0.54);
+    }
+     
+</style>
+<body>
+    <script>
+        var num = prompt("enter a number");
+        temp = num;
+        document.write("<table border=1>");
+       for(x=1; x<=num; x++)
+       {
+       document.write("<tr>");
+        for(y=1; y<=num; y++)
+        {
+             //x color
+             if(x==y) color = "blue";
+             if(y==temp) color ="blue";
+             //bottom
+             if(x<=num==temp) color = "blue";
+             //top
+             if(x==y<=num) color = "blue";
+             //right    
+             if(y==x<=num) color = "blue";
+             //left
+             if(y==num) color = "blue";   
+     document.write("<td bgcolor="+color+">"+(x*y)+"</td>");
+            color="white";
+        }
+        document.write("</tr>");
+        temp--;
+    }
+    document.write("</table>");
+    </script>
+    <a href="index2.html">
+        <button id="bthp" onclick="show21()">Back to Home</button>
+    </a>
+    </body>
+    </html>

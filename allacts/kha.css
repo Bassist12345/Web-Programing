@@ -1,0 +1,63 @@
+#bthp{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: rgb(220, 216, 216);
+    padding: 15px 40px;
+    color: rgb(252, 252, 252);
+    border-radius: 60px;
+}
+#bthp:hover{
+    background-color: rgba(113, 134, 153, 0.54);
+}
+body{
+    background-image: url(kha.jpg);
+
+}
+h1{
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    top: 80px;
+    left: 300px;
+}
+#start{
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    top: 270px;
+    left: 350px;
+    background-color: rgba(240, 248, 255, 0.406);
+    color: black;
+    border-radius: 30%;
+    padding: 15px 60px;
+
+}
+#start:hover{
+    background-color: rgba(190, 186, 186, 0.651);
+}
+#fb{
+    position: absolute;
+    border-radius: 20%;
+    height: 100px;
+    width: 100px;
+    bottom: 50px;
+    left: 100px;
+}
+#f{
+    background-color: rgba(190, 155, 79, 0.649);
+    position: absolute;
+    bottom: 200px;
+    left: 0px;
+    padding: 20px 70px;
+    font-size: 30px;
+    font-weight: bold;
+    border-top-right-radius: 70%;
+    border-bottom-right-radius: 70%;
+    border-style: solid;
+    border-color: black;
+    text-align: left;
+    
+}

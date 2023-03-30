@@ -1,0 +1,2876 @@
+body{
+    background-color:rgb(151, 198, 240);
+    animation-name: bg;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+#bthp{
+   position: absolute;
+   top: 30px;
+   right: -700px;
+   background-color: transparent;
+   border-style: solid;
+   border-color: aliceblue;
+   padding: 15px 40px;
+   color: aliceblue;
+   border-radius: 60px;
+   z-index: 3;
+}
+#bthp:hover{
+   background-color: rgba(240, 248, 255, 0.54);
+}
+@keyframes bg{
+   0%{
+      background-color: rgb(151, 198, 240);
+   }
+   50%{
+      background-color: rgb(5, 14, 21);
+   }
+    100%{
+      background-color: rgb(151, 198, 240);
+    }
+}
+#building{
+    background-color: rgb(225, 223, 203);
+    padding: 250px 840px;
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    z-index: 0;
+    animation-name: buildingbg;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+@keyframes buildingbg{
+   0%{
+      background-color: rgb(225, 223, 203);
+   }
+   50%{
+      background-color: rgb(183, 183, 183);
+   }
+    100%{
+      background-color: rgb(225, 223, 203);
+    }
+}
+#post0{
+   background-color: rgb(203, 208, 195);
+   position: absolute;
+   padding: 25px 165px;
+   z-index: 2;
+   top: -30px;
+   left: 850px;
+   animation-name: postttbg;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+#post1{
+    background-color: rgb(247, 246, 226);
+    position: absolute;
+    padding: 250px 25px;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    animation-name: floorbg;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+#f1{
+    background-color: rgb(229, 217, 194);
+    position: absolute;
+    padding: 30px 30px;
+    z-index: 1;
+    bottom: 0px;
+    left: 0px;
+    animation-name: fbg;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+@keyframes fbg{
+0%{
+background-color: rgb(229, 217, 194);
+}
+50%{ 
+background-color: rgb(181, 171, 152);
+}
+100%{
+background-color: rgb(229, 217, 194);
+}
+}
+#post2{
+    background-color: rgb(203, 208, 195);
+    position: absolute;
+    padding: 250px 30px;
+    z-index: 1;
+    top: 0px;
+    left: 850px;
+    animation-name: postttbg;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+#f2{
+    background-color: rgb(229, 217, 194);
+    position: absolute;
+    padding: 30px 30px;
+    z-index: 1;
+    bottom: 0px;
+    left: 0px;
+    animation-name: fbg;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+#post4{
+    background-color: rgb(203, 208, 195);
+    position: absolute;
+    padding: 250px 30px;
+    z-index: 1;
+    top: 0px;
+    right: 500px;
+    animation-name: postttbg;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+#post5{
+    background-color: rgb(203, 208, 195);
+    position: absolute;
+    padding: 25px 840px;
+    z-index: 2;
+    top: 0px;
+    left: 0px;
+    animation-name: postttbg;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+@keyframes postttbg{
+0%{
+background-color: rgb(203, 208, 195);
+}
+50%{
+background-color: rgb(139, 142, 134);
+}
+100%{
+background-color: rgb(203, 208, 195);
+}
+}
+#wallpaper{
+    background-color: rgb(154, 131, 93);
+    position: absolute;
+    padding: 245px 50px;
+    right: 0px;
+    top: 10px;
+    z-index: 1;
+    animation-name: wbg;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+@keyframes wbg{
+0%{
+background-color: rgb(154, 131, 93);
+}
+50%{
+background-color: rgb(95, 83, 62);
+}
+100%{
+background-color: rgb(154, 131, 93);
+}
+}
+#wh{
+    background-color: rgb(146, 122, 86);
+    position: absolute;
+    padding: 7px 50px;
+    top: 40px;
+    right: 0px;
+    animation-name: sbg;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+#ws{
+    background-color: rgb(146, 122, 86);
+    padding: 245px 7px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    animation-name: sbg;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+@keyframes sbg{
+0%{
+background-color: rgb(146, 122, 86);
+}
+50%{
+background-color: rgb(91, 78, 60);
+}
+100%{
+background-color: rgb(146, 122, 86);
+}
+}
+#mirror{
+    background-color: rgba(129, 73, 1, 0.502);
+    padding: 120px 120px;
+    position: absolute;
+    top: 60px;
+    left: 900px;
+    animation-name: mirrorbg;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+@keyframes mirror{
+0%{
+background-color: rgba(129, 73, 1, 0.502);
+}
+50%{
+background-color: rgba(58, 33, 1, 0.502);
+}
+100%{
+background-color: rgba(129, 73, 1, 0.502);
+}
+}
+#ccs{
+    background-color: rgb(203, 208, 195);
+    position: absolute;
+    padding: 30px 120px;
+    top: 20px;
+    left: 900px;
+    animation-name: postttbg;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+#ccs2{
+    background-color: rgb(203, 208, 195);
+    position: absolute;
+    padding: 35px 120px;
+    top: 280px;
+    left: 900px;
+    animation-name: postttbg;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+#floor1a{
+    background-color: rgb(247, 246, 226);
+    padding: 30px 400px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    animation-name: floorbg;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+#floor1b{
+    background-color: rgb(247, 246, 226);
+    padding: 30px 230px;
+    position: absolute;
+    right: 70px;
+    bottom: 0px;
+    z-index: 0;
+    animation-name: floorbg;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+#floor2a{
+    background-color: rgb(247, 246, 226);
+    padding: 30px 450px;
+    position: absolute;
+    left: 0px;
+    top: 290px;
+    animation-name: floorbg;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+#floor2b{
+    background-color: rgb(247, 246, 226);
+    padding: 30px 220px;
+    position: absolute;
+    right: 70px;
+    top: 290px;
+    z-index: 0;
+    animation-name: floorbg;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+#floor3a{
+
+    background-color: rgb(247, 246, 226);
+    padding: 30px 450px;
+    position: absolute;
+    left: 0px;
+    top: 140px;
+    animation-name: floorbg;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    
+}
+#floor3b{
+    background-color: rgb(247, 246, 226);
+    padding: 30px 220px;
+    position: absolute;
+    right: 70px;
+    top: 140px;
+    z-index: 0;
+    animation-name: floorbg;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+@keyframes floorbg{
+   0%{
+      background-color: rgb(247, 246, 226);
+   }
+   50%{
+      background-color: rgb(125, 125, 125);
+   }
+   100%{
+      background-color: rgb(247, 246, 226);
+   }
+}
+h1{
+font-size: 18px;
+position: absolute;
+top: -5px;
+left: 68px;
+font-family: sans-serif;
+color:rgb(239, 236, 236); 
+z-index: 3;
+}
+h2{
+    font-size: 15px;
+    position: absolute;
+    top: 13px;
+    left: 97px;
+    font-family: sans-serif;
+    color:rgb(239, 236, 236); 
+    z-index: 3;
+    }
+h3{
+    font-size: 18px;
+    position: absolute;
+    top: 25px;
+    left: 17px;
+    font-family: sans-serif;
+    color:rgb(239, 236, 236); 
+    z-index: 3;
+     }
+#bpostr{
+    background-color: rgb(247, 246, 226);
+    position: absolute;
+    padding: 250px 20px;
+    z-index: -1;
+    top: 0px;
+    right: 270px;
+    animation-name: floorbg;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    } 
+    #bpostl1{
+    background-color: rgb(247, 246, 226);
+    position: absolute;
+    padding: 250px 20px;
+    z-index: 1;
+    left: 210px;
+    top: 0px;
+    animation-name: floorbg;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    }
+    #bpostl2{
+        background-color: rgb(247, 246, 226);
+        position: absolute;
+        padding: 250px 20px;
+        z-index: 1;
+        left: 420px;
+        top: 0px;
+        animation-name: floorbg;
+        animation-iteration-count: infinite;
+        animation-duration: 20s;
+        }
+        #bpostl3{
+            background-color: rgb(247, 246, 226);
+            position: absolute;
+            padding: 250px 20px;
+            z-index: 1;
+            left: 630px;
+            top: 0px;
+            animation-name: floorbg;
+            animation-iteration-count: infinite;
+            animation-duration: 20s;
+            }
+#doora{
+   position: absolute;
+   border-color: rgb(232, 239, 245);
+   border-width: 3px;
+   border-style: solid;
+   background-color: rgb(88, 86, 86);
+   bottom: 45px;
+   left:50px;
+   z-index: -1;
+   padding: 35px 22px;  
+}
+#doorina{
+   position: absolute;
+   border-color: rgb(232, 239, 245);
+   border-width: 3px;
+   border-style: solid;
+   background-color: rgb(205, 197, 197);
+   bottom: 45px;
+   left:50px;
+   z-index: -1;
+   padding: 35px 22px;  
+}
+#doora:hover{
+   position: absolute;
+   border-color: rgb(232, 239, 245);
+   border-width: 3px;
+   border-style: solid;
+   background-color: rgb(88, 86, 86);
+   bottom: 45px;
+   left: 85px;
+   z-index: -1;
+   padding: 35px 4px;  
+}
+#dooraw{
+    position: absolute;
+    border-color: rgb(232, 239, 245);
+    border-width: 3px;
+    border-style: solid;
+    background-color: rgb(88, 86, 86);
+    bottom: 120px;
+    left:50px;
+    z-index: 2;
+    padding: 5px 22px;  
+}
+
+
+#doorc{
+    position: absolute;
+    border-color: rgb(232, 239, 245);
+    border-width: 3px;
+    border-style: solid;
+    background-color: rgb(88, 86, 86);
+    bottom: 345px;
+    left:50px;
+    z-index: -1;
+    padding: 35px 22px;  
+ }
+ #doorinc{
+   position: absolute;
+   border-color: rgb(232, 239, 245);
+   border-width: 3px;
+   border-style: solid;
+   background-color:  rgb(205, 197, 197);
+   bottom: 345px;
+   left:50px;
+   z-index: -1;
+   padding: 35px 22px;  
+}
+ #doorc:hover{
+   position: absolute;
+   border-color: rgb(232, 239, 245);
+   border-width: 3px;
+   border-style: solid;
+   background-color: rgb(88, 86, 86);
+   bottom: 345px;
+   left: 85px;
+   z-index: -1;
+   padding: 35px 4px;  
+}
+ #doorcw{
+     position: absolute;
+     border-color: rgb(232, 239, 245);
+     border-width: 3px;
+     border-style: solid;
+     background-color: rgb(88, 86, 86);
+     bottom: 420px;
+     left:50px;
+     z-index: 2;
+     padding: 5px 22px;  
+ }
+ #doorb{
+    position: absolute;
+    border-color: rgb(232, 239, 245);
+    border-width: 3px;
+    border-style: solid;
+    background-color: rgb(88, 86, 86);
+    bottom: 195px;
+    left: 50px;
+    z-index: -1;
+    padding: 35px 22px;  
+ }
+ #doorb:hover{
+   position: absolute;
+   border-color: rgb(232, 239, 245);
+   border-width: 3px;
+   border-style: solid;
+   background-color: rgb(88, 86, 86);
+   bottom: 195px;
+   left: 85px;
+   z-index: -1;
+   padding: 35px 4px;  
+}
+ #doorinb{
+   position: absolute;
+   border-color: rgb(232, 239, 245);
+   border-width: 3px;
+   border-style: solid;
+   background-color: rgb(205, 197, 197);
+   bottom: 195px;
+   left: 50px;
+   z-index: -1;
+   padding: 35px 22px;  
+}
+ #doorbw{
+     position: absolute;
+     border-color: rgb(232, 239, 245);
+     border-width: 3px;
+     border-style: solid;
+     background-color: rgb(88, 86, 86);
+     bottom: 270px;
+     left:50px;
+     z-index: 2;
+     padding: 5px 22px;  
+ }
+ #doord{
+    position: absolute;
+    border-color: rgb(232, 239, 245);
+    border-width: 3px;
+    border-style: solid;
+    background-color: rgb(88, 86, 86);
+    bottom: 195px;
+    left: 370px;
+    z-index: -1;
+    padding: 35px 22px;  
+ }
+ #doord:hover{
+   position: absolute;
+   border-color: rgb(232, 239, 245);
+   border-width: 3px;
+   border-style: solid;
+   background-color: rgb(88, 86, 86);
+   bottom: 195px;
+   left: 405px;
+   z-index: -1;
+   padding: 35px 4px;  
+}
+ #doorind{
+   position: absolute;
+   border-color: rgb(232, 239, 245);
+   border-width: 3px;
+   border-style: solid;
+   background-color: rgb(205, 197, 197);
+   bottom: 195px;
+   left: 370px;
+   z-index: -1;
+   padding: 35px 22px;  
+}
+ #doordw{
+     position: absolute;
+     border-color: rgb(232, 239, 245);
+     border-width: 3px;
+     border-style: solid;
+     background-color: rgb(88, 86, 86);
+     bottom: 270px;
+     left: 370px;
+     z-index: 2;
+     padding: 5px 22px;  
+ }
+ #doore{
+    position: absolute;
+    border-color: rgb(232, 239, 245);
+    border-width: 3px;
+    border-style: solid;
+    background-color: rgb(88, 86, 86);
+    bottom: 345px;
+    left: 370px;
+    z-index: -1;
+    padding: 35px 22px;  
+ }
+ #doore:hover{
+   position: absolute;
+   border-color: rgb(232, 239, 245);
+   border-width: 3px;
+   border-style: solid;
+   background-color: rgb(88, 86, 86);
+   bottom: 345px;
+   left: 405px;
+   z-index: -1;
+   padding: 35px 4px;  
+}
+ #doorine{
+   position: absolute;
+   border-color: rgb(232, 239, 245);
+   border-width: 3px;
+   border-style: solid;
+   background-color: rgb(205, 197, 197);
+   bottom: 345px;
+   left: 370px;
+   z-index: -1;
+   padding: 35px 22px;  
+}
+#doorew{
+   position: absolute;
+   border-color: rgb(232, 239, 245);
+   border-width: 3px;
+   border-style: solid;
+   background-color: rgb(88, 86, 86);
+   bottom: 420px;
+   left: 370px;
+   z-index: 2;
+   padding: 5px 22px;  
+}
+#doorf{
+  position: absolute;
+  border-color: rgb(232, 239, 245);
+  border-width: 3px;
+  border-style: solid;
+  background-color: rgb(88, 86, 86);
+  bottom: 45px;
+  left: 370px;
+  z-index: -1;
+  padding: 35px 22px;  
+}
+#doorf:hover{
+ position: absolute;
+ border-color: rgb(232, 239, 245);
+ border-width: 3px;
+ border-style: solid;
+ background-color: rgb(88, 86, 86);
+ bottom: 45px;
+ left: 405px;
+ z-index: -1;
+ padding: 35px 4px;  
+}
+#doorinf{
+ position: absolute;
+ border-color: rgb(232, 239, 245);
+ border-width: 3px;
+ border-style: solid;
+ background-color: rgb(205, 197, 197);
+ bottom: 45px;
+ left: 370px;
+ z-index: -1;
+ padding: 35px 22px;  
+}
+#doorfw{
+   position: absolute;
+   border-color: rgb(232, 239, 245);
+   border-width: 3px;
+   border-style: solid;
+   background-color: rgb(88, 86, 86);
+   bottom: 120px;
+   left: 370px;
+   z-index: 2;
+   padding: 5px 22px;  
+}
+#doorg{
+  position: absolute;
+  border-color: rgb(232, 239, 245);
+  border-width: 3px;
+  border-style: solid;
+  background-color: rgb(88, 86, 86);
+  bottom: 45px;
+  left: 460px;
+  z-index: -1;
+  padding: 35px 22px;  
+}
+#doorg:hover{
+ position: absolute;
+ border-color: rgb(232, 239, 245);
+ border-width: 3px;
+ border-style: solid;
+ background-color: rgb(88, 86, 86);
+ bottom: 45px;
+ left: 495px;
+ z-index: -1;
+ padding: 35px 4px;  
+}
+#dooring{
+ position: absolute;
+ border-color: rgb(232, 239, 245);
+ border-width: 3px;
+ border-style: solid;
+ background-color: rgb(205, 197, 197);
+ bottom: 45px;
+ left: 460px;
+ z-index: -1;
+ padding: 35px 22px;  
+}
+#doorgw{
+   position: absolute;
+   border-color: rgb(232, 239, 245);
+   border-width: 3px;
+   border-style: solid;
+   background-color: rgb(88, 86, 86);
+   bottom: 120px;
+   left: 460px;
+   z-index: 2;
+   padding: 5px 22px;  
+}
+
+#doorh{
+  position: absolute;
+  border-color: rgb(232, 239, 245);
+  border-width: 3px;
+  border-style: solid;
+  background-color: rgb(88, 86, 86);
+  bottom: 345px;
+  left: 460px;
+  z-index: -1;
+  padding: 35px 22px;  
+}
+#doorh:hover{
+ position: absolute;
+ border-color: rgb(232, 239, 245);
+ border-width: 3px;
+ border-style: solid;
+ background-color: rgb(88, 86, 86);
+ bottom: 345px;
+ left: 495px;
+ z-index: -1;
+ padding: 35px 4px;  
+}
+#doorinh{
+ position: absolute;
+ border-color: rgb(232, 239, 245);
+ border-width: 3px;
+ border-style: solid;
+ background-color: rgb(205, 197, 197);
+ bottom: 345px;
+ left: 460px;
+ z-index: -1;
+ padding: 35px 22px;  
+}
+#doorhw{
+   position: absolute;
+   border-color: rgb(232, 239, 245);
+   border-width: 3px;
+   border-style: solid;
+   background-color: rgb(88, 86, 86);
+   bottom: 420px;
+   left: 460px;
+   z-index: 2;
+   padding: 5px 22px;  
+}
+#doori{
+  position: absolute;
+  border-color: rgb(232, 239, 245);
+  border-width: 3px;
+  border-style: solid;
+  background-color: rgb(88, 86, 86);
+  bottom: 195px;
+  left: 460px;
+  z-index: -1;
+  padding: 35px 22px;  
+}
+#doori:hover{
+ position: absolute;
+ border-color: rgb(232, 239, 245);
+ border-width: 3px;
+ border-style: solid;
+ background-color: rgb(88, 86, 86);
+ bottom: 195px;
+ left: 495px;
+ z-index: -1;
+ padding: 35px 4px;  
+}
+#doorini{
+ position: absolute;
+ border-color: rgb(232, 239, 245);
+ border-width: 3px;
+ border-style: solid;
+ background-color: rgb(205, 197, 197);
+ bottom: 195px;
+ left: 460px;
+ z-index: -1;
+ padding: 35px 22px;  
+}
+#dooriw{
+   position: absolute;
+   border-color: rgb(232, 239, 245);
+   border-width: 3px;
+   border-style: solid;
+   background-color: rgb(88, 86, 86);
+   bottom: 270px;
+   left: 460px;
+   z-index: 2;
+   padding: 5px 22px;  
+}
+#doorj{
+  position: absolute;
+  border-color: rgb(232, 239, 245);
+  border-width: 3px;
+  border-style: solid;
+  background-color: rgb(88, 86, 86);
+  bottom: 195px;
+  left: 801px;
+  z-index: -1;
+  padding: 35px 22px;  
+}
+#doorj:hover{
+ position: absolute;
+ border-color: rgb(232, 239, 245);
+ border-width: 3px;
+ border-style: solid;
+ background-color: rgb(88, 86, 86);
+ bottom: 195px;
+ left: 836px;
+ z-index: -1;
+ padding: 35px 4px;  
+}
+#doorinj{
+ position: absolute;
+ border-color: rgb(232, 239, 245);
+ border-width: 3px;
+ border-style: solid;
+ background-color: rgb(205, 197, 197);
+ bottom: 195px;
+ left: 801px;
+ z-index: -1;
+ padding: 35px 22px;  
+}
+#doorjw{
+   position: absolute;
+   border-color: rgb(232, 239, 245);
+   border-width: 3px;
+   border-style: solid;
+   background-color: rgb(88, 86, 86);
+   bottom: 270px;
+   left: 801px;
+   z-index: 2;
+   padding: 5px 22px;  
+}
+#doork{
+  position: absolute;
+  border-color: rgb(232, 239, 245);
+  border-width: 3px;
+  border-style: solid;
+  background-color: rgb(88, 86, 86);
+  bottom: 345px;
+  left: 801px;
+  z-index: -1;
+  padding: 35px 22px;  
+}
+#doork:hover{
+ position: absolute;
+ border-color: rgb(232, 239, 245);
+ border-width: 3px;
+ border-style: solid;
+ background-color: rgb(88, 86, 86);
+ bottom: 345px;
+ left: 836px;
+ z-index: -1;
+ padding: 35px 4px;  
+}
+#doorink{
+ position: absolute;
+ border-color: rgb(232, 239, 245);
+ border-width: 3px;
+ border-style: solid;
+ background-color: rgb(205, 197, 197);
+ bottom: 345px;
+ left: 801px;
+ z-index: -1;
+ padding: 35px 22px;  
+}
+#doorkw{
+   position: absolute;
+   border-color: rgb(232, 239, 245);
+   border-width: 3px;
+   border-style: solid;
+   background-color: rgb(88, 86, 86);
+   bottom: 420px;
+   left: 801px;
+   z-index: 2;
+   padding: 5px 22px;  
+}
+
+#doorl{
+  position: absolute;
+  border-color: rgb(232, 239, 245);
+  border-width: 3px;
+  border-style: solid;
+  background-color: rgb(88, 86, 86);
+  bottom: 30px;
+  left: 801px;
+  z-index: -1;
+  padding: 50px 22px;  
+}
+#doorl:hover{
+ position: absolute;
+ border-color: rgb(232, 239, 245);
+ border-width: 3px;
+ border-style: solid;
+ background-color: rgb(88, 86, 86);
+ bottom: 30px;
+ left: 836px;
+ z-index: -1;
+ padding: 50px 4px;  
+}
+#doorinl{
+ position: absolute;
+ border-color: rgb(232, 239, 245);
+ border-width: 3px;
+ border-style: solid;
+ background-color: rgb(205, 197, 197);
+ bottom: 30px;
+ left: 801px;
+ z-index: -1;
+ padding: 50px 22px;  
+}
+#doorlw{
+   position: absolute;
+   border-color: rgb(232, 239, 245);
+   border-width: 3px;
+   border-style: solid;
+   background-color: rgb(88, 86, 86);
+   bottom: 120px;
+   left: 801px;
+   z-index: 2;
+   padding: 5px 22px;  
+}
+#doorm{
+  position: absolute;
+  border-color: rgb(232, 239, 245);
+  border-width: 3px;
+  border-style: solid;
+  background-color: rgb(88, 86, 86);
+  bottom: 195px;
+  left: 1530px;
+  z-index: -1;
+  padding: 35px 22px;  
+}
+#doorm:hover{
+ position: absolute;
+ border-color: rgb(232, 239, 245);
+ border-width: 3px;
+ border-style: solid;
+ background-color: rgb(88, 86, 86);
+ bottom: 195px;
+ left: 1565px;
+ z-index: -1;
+ padding: 35px 4px;  
+}
+#doorinm{
+ position: absolute;
+ border-color: rgb(232, 239, 245);
+ border-width: 3px;
+ border-style: solid;
+ background-color: rgb(205, 197, 197);
+ bottom: 195px;
+ left: 1530px;
+ z-index: -1;
+ padding: 35px 22px;  
+}
+#doormw{
+   position: absolute;
+   border-color: rgb(232, 239, 245);
+   border-width: 3px;
+   border-style: solid;
+   background-color: rgb(88, 86, 86);
+   bottom: 270px;
+   left: 1530px;
+   z-index: 2;
+   padding: 5px 22px;  
+}
+#doorn{
+  position: absolute;
+  border-color: rgb(232, 239, 245);
+  border-width: 3px;
+  border-style: solid;
+  background-color: rgb(88, 86, 86);
+  bottom: 345px;
+  left: 1530px;
+  z-index: -1;
+  padding: 35px 22px;  
+}
+#doorn:hover{
+ position: absolute;
+ border-color: rgb(232, 239, 245);
+ border-width: 3px;
+ border-style: solid;
+ background-color: rgb(88, 86, 86);
+ bottom: 345px;
+ left: 1565px;
+ z-index: -1;
+ padding: 35px 4px;  
+}
+#doorinn{
+ position: absolute;
+ border-color: rgb(232, 239, 245);
+ border-width: 3px;
+ border-style: solid;
+ background-color: rgb(205, 197, 197);
+ bottom: 345px;
+ left: 1530px;
+ z-index: -1;
+ padding: 35px 22px;  
+}
+ #doornw{
+     position: absolute;
+     border-color: rgb(232, 239, 245);
+     border-width: 3px;
+     border-style: solid;
+     background-color: rgb(88, 86, 86);
+     bottom: 420px;
+     left: 1530px;
+     z-index: 2;
+     padding: 5px 22px;  
+ }
+ #dooro{
+    position: absolute;
+    border-color: rgb(232, 239, 245);
+    border-width: 3px;
+    border-style: solid;
+    background-color: rgb(88, 86, 86);
+    bottom: 45px;
+    left: 1530px;
+    z-index: -1;
+    padding: 35px 22px;  
+ }
+ #dooro:hover{
+   position: absolute;
+   border-color: rgb(232, 239, 245);
+   border-width: 3px;
+   border-style: solid;
+   background-color: rgb(88, 86, 86);
+   bottom: 45px;
+   left: 1565px;
+   z-index: -1;
+   padding: 35px 4px;  
+}
+ #doorino{
+   position: absolute;
+   border-color: rgb(232, 239, 245);
+   border-width: 3px;
+   border-style: solid;
+   background-color: rgb(205, 197, 197);
+   bottom: 45px;
+   left: 1530px;
+   z-index: -1;
+   padding: 35px 22px;  
+}
+ #doorow{
+     position: absolute;
+     border-color: rgb(232, 239, 245);
+     border-width: 3px;
+     border-style: solid;
+     background-color: rgb(88, 86, 86);
+     bottom: 120px;
+     left: 1530px;
+     z-index: 2;
+     padding: 5px 22px;  
+ }
+ #doorp{
+    position: absolute;
+    border-color: rgb(232, 239, 245);
+    border-width: 3px;
+    border-style: solid;
+    background-color: rgb(88, 86, 86);
+    bottom: 195px;
+    left: 1180px;
+    z-index: -1;
+    padding: 35px 22px;  
+ }
+ #doorp:hover{
+   position: absolute;
+   border-color: rgb(232, 239, 245);
+   border-width: 3px;
+   border-style: solid;
+   background-color: rgb(88, 86, 86);
+   bottom: 195px;
+   left: 1215px;
+   z-index: -1;
+   padding: 35px 4px;  
+}
+ #doorinp{
+   position: absolute;
+   border-color: rgb(232, 239, 245);
+   border-width: 3px;
+   border-style: solid;
+   background-color: rgb(205, 197, 197);
+   bottom: 195px;
+   left: 1180px;
+   z-index: -1;
+   padding: 35px 22px;  
+}
+ #doorpw{
+     position: absolute;
+     border-color: rgb(232, 239, 245);
+     border-width: 3px;
+     border-style: solid;
+     background-color: rgb(88, 86, 86);
+     bottom: 270px;
+     left: 1180px;  
+     z-index: 2;
+     padding: 5px 22px;  
+ }
+ #doorq{
+    position: absolute;
+    border-color: rgb(232, 239, 245);
+    border-width: 3px;
+    border-style: solid;
+    background-color: rgb(88, 86, 86);
+    bottom: 345px;
+    left: 1180px;  
+    z-index: -1;
+    padding: 35px 22px;  
+ }
+ #doorq:hover{
+   position: absolute;
+   border-color: rgb(232, 239, 245);
+   border-width: 3px;
+   border-style: solid;
+   background-color: rgb(88, 86, 86);
+   bottom: 345px;
+   left: 1215px;
+   z-index: -1;
+   padding: 35px 4px;  
+}
+ #doorinq{
+   position: absolute;
+   border-color: rgb(232, 239, 245);
+   border-width: 3px;
+   border-style: solid;
+   background-color: rgb(205, 197, 197);
+   bottom: 345px;
+   left: 1180px;
+   z-index: -1;
+   padding: 35px 22px;  
+}
+ #doorqw{
+     position: absolute;
+     border-color: rgb(232, 239, 245);
+     border-width: 3px;
+     border-style: solid;
+     background-color: rgb(88, 86, 86);
+     bottom: 420px;
+     left: 1180px;  
+     z-index: 2;
+     padding: 5px 22px;  
+ }
+ #doorr{
+    position: absolute;
+    border-color: rgb(232, 239, 245);
+    border-width: 3px;
+    border-style: solid;
+    background-color: rgb(88, 86, 86);
+    bottom: 45px;
+    left: 1180px;  
+    z-index: -1;
+    padding: 35px 22px;  
+ }
+ #doorr:hover{
+   position: absolute;
+   border-color: rgb(232, 239, 245);
+   border-width: 3px;
+   border-style: solid;
+   background-color: rgb(88, 86, 86);
+   bottom: 45px;
+   left: 1215px;
+   z-index: -1;
+   padding: 35px 4px;  
+}
+ #doorinr{
+   position: absolute;
+   border-color: rgb(232, 239, 245);
+   border-width: 3px;
+   border-style: solid;
+   background-color: rgb(205, 197, 197);
+   bottom: 45px;
+   left: 1180px;
+   z-index: -1;
+   padding: 35px 22px;  
+}
+ #doorrw{
+     position: absolute;
+     border-color: rgb(232, 239, 245);
+     border-width: 3px;
+     border-style: solid;
+     background-color: rgb(88, 86, 86);
+     bottom: 120px;
+     left: 1180px;  
+     z-index: 2;
+     padding: 5px 22px;  
+ }
+ #w1a{
+    background-color: rgb(88, 86, 86);
+    padding: 15px 115px;
+    bottom: 105px;
+    z-index: 0;
+    left: 120px;
+    position: absolute;
+ }
+ #wh1{
+    padding: 2px 115px;
+    top: 0px;
+    z-index: 0;
+    left:0px;
+    position: absolute;
+    background-color: rgb(232, 239, 245);
+ }
+ #w2a{
+    background-color: rgb(88, 86, 86);
+    padding: 15px 115px;
+    bottom: 105px;
+    z-index: 0;
+    left: 540px;
+    position: absolute;
+ }
+ #wh2{
+    padding: 2px 115px;
+    top: 0px;
+    z-index: 0;
+    left:0px;
+    position: absolute;
+    background-color: rgb(232, 239, 245);
+ }
+ #w1b{
+    background-color: rgb(88, 86, 86);
+    padding: 15px 115px;
+    bottom: 255px;
+    z-index: 0;
+    left: 120px;
+    position: absolute;
+ }
+ #wh1b{
+    padding: 2px 115px;
+    top: 0px;
+    z-index: 0;
+    left:0px;
+    position: absolute;
+    background-color: rgb(232, 239, 245);
+ }
+ #w2b{
+    background-color: rgb(88, 86, 86);
+    padding: 15px 115px;
+    bottom: 255px;
+    z-index: 0;
+    left: 540px;
+    position: absolute;
+ }
+ #wh2b{
+    padding: 2px 115px;
+    top: 0px;
+    z-index: 0;
+    left:0px;
+    position: absolute;
+    background-color: rgb(232, 239, 245);
+ }
+
+ #w3c{
+    background-color: rgb(88, 86, 86);
+    padding: 15px 115px;
+    bottom: 405px;
+    z-index: 0;
+    left: 120px;
+    position: absolute;
+ }
+ #wh3c{
+    padding: 2px 115px;
+    top: 0px;
+    z-index: 0;
+    left:0px;
+    position: absolute;
+    background-color: rgb(232, 239, 245);
+ }
+ #w3c2{
+    background-color: rgb(88, 86, 86);
+    padding: 15px 115px;
+    bottom: 405px;
+    z-index: 0;
+    left: 540px;
+    position: absolute;
+ }
+ #wh3c2{
+    padding: 2px 115px;
+    top: 0px;
+    z-index: 0;
+    left:0px;
+    position: absolute;
+    background-color: rgb(232, 239, 245);
+ }
+ #w1r{
+    background-color: rgb(88, 86, 86);
+    padding: 15px 115px;
+    bottom: 405px;
+    z-index: -2;
+    left: 1265px;
+    position: absolute;
+ }
+ #w1rt{
+    padding: 2px 115px;
+    top: 0px;
+    z-index: 0;
+    left:0px;
+    position: absolute;
+    background-color: rgb(232, 239, 245);
+ }
+
+ #w2r{
+    background-color: rgb(88, 86, 86);
+    padding: 15px 115px;
+    bottom: 255px;
+    z-index: -2;
+    left: 1265px;
+    position: absolute;
+ }
+ #w2rt{
+    padding: 2px 115px;
+    top: 0px;
+    z-index: 0; 
+    left:0px;
+    position: absolute;
+    background-color: rgb(232, 239, 245);
+ }
+ #w3r{
+    background-color: rgb(88, 86, 86);
+    padding: 15px 115px;
+    bottom: 105px;
+    z-index: -2;
+    left: 1265px;
+    position: absolute;
+ }
+ #w3rt{
+    padding: 2px 115px;
+    top: 0px;
+    z-index: 0;
+    left:0px;
+    position: absolute;
+    background-color: rgb(232, 239, 245);
+ }
+ #hor1{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding: 120px 120px;
+    background-color: rgba(1, 1, 0, 0.528);
+    z-index: 0;
+ }
+ #hor2{
+    position: absolute;
+    left: 0px;
+    top: 60px;
+    padding: 1px 120px;
+    background-color: rgba(84, 84, 66, 0.623);
+    z-index: 0;
+ }
+ #hor3{
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    padding: 1px 120px;
+    background-color: rgba(84, 84, 66, 0.623);
+    z-index: 0;
+ }
+ #hor4{
+    position: absolute;
+    left: 0px;
+    top: 140px;
+    padding: 1px 120px;
+    background-color: rgba(84, 84, 66, 0.623);
+    z-index: 0;
+ }
+ #hor5{
+    position: absolute;
+    left: 0px;
+    top: 180px;
+    padding: 1px 120px;
+    background-color: rgba(84, 84, 66, 0.623);
+    z-index: 0;
+ }
+ #ver1{
+    position: absolute;
+    top: 0px;
+    left: 52px;
+    background-color: rgba(84, 84, 66, 0.623);
+    z-index: 0;
+    padding: 120px 1px;
+ }
+ #ver2{
+    position: absolute;
+    top: 0px;
+    left: 94px;
+    background-color: rgba(84, 84, 66, 0.623);
+    z-index: 0;
+    padding: 120px 1px;
+ }
+ #ver3{
+    position: absolute;
+    top: 0px;
+    left: 136px;
+    background-color: rgba(84, 84, 66, 0.623);
+    z-index: 0;
+    padding: 120px 1px;
+ }
+ #ver4{
+    position: absolute;
+    top: 0px;
+    left: 180px;
+    background-color: rgba(84, 84, 66, 0.623);
+    z-index: 0;
+    padding: 120px 1px;
+ }
+ 
+ #sl{
+   position: absolute;
+   background-color: rgb(168, 168, 168);
+   padding: 250px 0.3px;
+   top: 0px;
+   left: 0px;
+   z-index: 4;
+ }
+ #srr{
+   position: absolute;
+   background-color: rgb(168, 168, 168);
+   padding: 250px 0.3px;
+   right: 0px;
+   top: 0px;
+   z-index: 4;
+ }
+ #t1{
+   position: absolute;
+    background-color: rgb(168, 168, 168);
+    padding: 25px 0.8px;
+    top: 0px;
+    left: 50px;
+    z-index: 4;
+ }
+ #t2{
+   position: absolute;
+    background-color: rgb(168, 168, 168);
+    padding: 25px 0.8px;
+    top: 0px;
+    left: 100px;
+    z-index: 4;
+ }
+ #t3{
+   position: absolute;
+    background-color: rgb(168, 168, 168);
+    padding: 25px 0.8px;
+    top: 0px;
+    left: 150px;
+    z-index: 4;
+ }
+ #t4{
+   position: absolute;
+    background-color: rgb(168, 168, 168);
+    padding: 25px 0.8px;
+    top: 0px;
+    left: 200px;
+    z-index: 4;
+ }
+ #t5{
+   position: absolute;
+    background-color: rgb(168, 168, 168);
+    padding: 25px 0.8px;
+    top: 0px;
+    left: 250px;
+    z-index: 4;
+ }
+ #t6{
+   position: absolute;
+    background-color: rgb(168, 168, 168);
+    padding: 25px 0.8px;
+    top: 0px;
+    left: 300px;
+    z-index: 4;
+ }
+ #t7{
+   position: absolute;
+    background-color: rgb(168, 168, 168);
+    padding: 25px 0.8px;
+    top: 0px;
+    left: 350px;
+    z-index: 4;
+ }
+ #t8{
+   position: absolute;
+    background-color: rgb(168, 168, 168);
+    padding: 25px 0.8px;
+    top: 0px;
+    left: 400px;
+    z-index: 4;
+ }
+ #t9{
+   position: absolute;
+    background-color: rgb(168, 168, 168);
+    padding: 25px 0.8px;
+    top: 0px;
+    left: 450px;
+    z-index: 4;
+ }
+ #t10{
+   position: absolute;
+    background-color: rgb(168, 168, 168);
+    padding: 25px 0.8px;
+    top: 0px;
+    left: 500px;
+    z-index: 4;
+ }
+ #t11{
+   position: absolute;
+    background-color: rgb(168, 168, 168);
+    padding: 25px 0.8px;
+    top: 0px;
+    left: 550px;
+    z-index: 4;
+ }
+ #t12{
+   position: absolute;
+    background-color: rgb(168, 168, 168);
+    padding: 25px 0.8px;
+    top: 0px;
+    left: 600px;
+    z-index: 4;
+ }
+ #t13{
+   position: absolute;
+    background-color: rgb(168, 168, 168);
+    padding: 25px 0.8px;
+    top: 0px;
+    left: 650px;
+    z-index: 5;
+ }
+ #t14{
+   position: absolute;
+   background-color: rgb(168, 168, 168);
+   padding: 25px 0.8px;
+   top: 0px;
+   left: 700px;
+   z-index: 4;
+ }
+ #t15{
+   position: absolute;
+    background-color: rgb(168, 168, 168);
+    padding: 25px 0.8px;
+    top: 0px;
+    left: 750px;
+    z-index: 4;
+ }
+ #t16{
+   position: absolute;
+    background-color: rgb(168, 168, 168);
+    padding: 25px 0.8px;
+    top: 0px;
+    left: 800px;
+    z-index: 4;
+ }
+ #t17{
+   position: absolute;
+    background-color: rgb(168, 168, 168);
+    padding: 40px 0.8px;
+    top: -30px;
+    left: 850px;  
+    z-index: 4;
+ }
+ #t18{
+   position: absolute;
+    background-color: rgb(168, 168, 168);
+    padding: 40px 0.8px;
+    top: -30px;
+    left: 900px;
+    z-index: 5;
+ }
+ #t19{
+   position: absolute;
+    background-color: rgb(168, 168, 168);
+    padding: 55px 0.8px;
+    top: -30px;
+    left: 950px;
+    z-index: 4;
+ }
+ #t20{
+   position: absolute;
+    background-color: rgb(168, 168, 168);
+    padding: 55px 0.8px;
+    top: -30px;
+    left: 1000px;
+    z-index: 4;
+ }
+ #t21{
+   position: absolute;
+    background-color: rgb(168, 168, 168);
+    padding: 55px 0.8px;
+    top: -30px;
+    left: 1050px;
+    z-index: 4;
+ }
+ #t22{
+   position: absolute;
+    background-color: rgb(168, 168, 168);
+    padding: 55px 0.8px;
+    top: -30px;
+    left: 1100px;
+    z-index: 4;
+ }
+ #t23{
+   position: absolute;
+    background-color: rgb(168, 168, 168);
+    padding: 40px 0.8px;
+    top: -30px;
+    left: 1150px;
+    z-index: 4;
+ }
+ #t24{
+   position: absolute;
+    background-color: rgb(168, 168, 168);
+    padding: 25px 0.8px;
+    top: 0px;
+    left: 1200px;
+    z-index: 4;
+ }
+ #t25{
+   position: absolute;
+    background-color: rgb(168, 168, 168);
+    padding: 25px 0.8px;
+    top: 0px;
+    left: 1250px;
+    z-index: 4;
+ }
+ #t26{
+   position: absolute;
+    background-color: rgb(168, 168, 168);
+    padding: 25px 0.8px;
+    top: 0px;
+    left: 1300px;
+    z-index: 4;
+ }
+ #t27{
+   position: absolute;
+    background-color: rgb(168, 168, 168);
+    padding: 25px 0.8px;
+    top: 0px;
+    left: 1350px;
+    z-index: 4;
+ }
+ #t28{
+   position: absolute;
+    background-color: rgb(168, 168, 168);
+    padding: 25px 0.8px;
+    top: 0px;
+    left: 1400px;
+    z-index: 4;
+ }
+ #t29{
+   position: absolute;
+    background-color: rgb(168, 168, 168);
+    padding: 25px 0.8px;
+    top: 0px;
+    left: 1450px;
+    z-index: 4;
+ }
+ #t30{
+   position: absolute;
+    background-color: rgb(168, 168, 168);
+    padding: 25px 0.8px;
+    top: 0px;
+    left: 1500px;
+    z-index: 4;
+ }
+ #t31{
+   position: absolute;
+    background-color: rgb(168, 168, 168);
+    padding: 25px 0.8px;
+    top: 0px;
+    left: 1550px;
+    z-index: 4;
+ }
+ #t32{
+   position: absolute;
+    background-color: rgb(168, 168, 168);
+    padding: 25px 0.8px;
+    top: 0px;
+    left: 1600px;
+    z-index: 4;
+ }
+ #t33{
+   position: absolute;
+    background-color: rgb(168, 168, 168);
+    padding: 25px 0.8px;
+    top: 0px;
+    left: 1650px;
+    z-index: 4;
+ }
+ #tt{
+   position: absolute;
+   background-color: rgb(168, 168, 168);
+   padding: 0.3px 840px;
+   top: 0px;
+   left: 0px;
+   z-index: -2;
+ }
+ #tb{
+   position: absolute;
+   background-color: rgb(168, 168, 168);
+   padding: 0.3px 840px;
+   bottom: 0px;
+   left: 0px;
+   z-index: 4;
+ }
+ #ps1{
+   position: absolute;
+   background-color: rgb(168, 168, 168);
+   padding: 0.5px 30px;
+   top: 50px;
+   left: 0px;
+   z-index: 4;
+ }
+ #ps2{
+   position: absolute;
+   background-color: rgb(168, 168, 168);
+   padding: 0.8px 30px;
+   top: 100px;
+   left: 0px;
+   z-index: 4;
+ }
+ #ps3{
+   position: absolute;
+   background-color: rgb(168, 168, 168);
+   padding: 0.8px 30px;
+   top: 150px;
+   left: 0px;
+   z-index: 4;
+ }
+ #ps4{
+   position: absolute;
+   background-color: rgb(168, 168, 168);
+   padding: 0.8px 30px;
+   top: 200px;
+   left: 0px;
+   z-index: 4;
+ }
+ #ps5{
+   position: absolute;
+   background-color: rgb(168, 168, 168);
+   padding: 0.8px 30px;
+   top: 250px;
+   left: 0px;
+   z-index: 4;
+ }
+ #ps5{
+   position: absolute;
+   background-color: rgb(168, 168, 168);
+   padding: 0.8px 30px;
+   top: 250px;
+   left: 0px;
+   z-index: 4;
+ }
+ #ps6{
+   position: absolute;
+   background-color: rgb(168, 168, 168);
+   padding: 0.8px 30px;
+   top: 300px;
+   left: 0px;
+   z-index: 4;
+ }#ps7{
+   position: absolute;
+   background-color: rgb(168, 168, 168);
+   padding: 0.8px 30px;
+   top: 350px;
+   left: 0px;
+   z-index: 4;
+ }
+ #ps8{
+   position: absolute;
+   background-color: rgb(168, 168, 168);
+   padding: 0.8px 30px;
+   top: 400px;
+   left: 0px;
+   z-index: 4;
+ }
+ #ps9{
+   position: absolute;
+   background-color: rgb(168, 168, 168);
+   padding: 0.8px 30px;
+   top: 440px;
+   left: 0px;
+   z-index: 4;
+ }
+ #ppl{
+   position: absolute;
+   background-color: rgb(168, 168, 168);
+   padding: 250px 0.1px;
+   top: 0px;
+   left: 0px;
+   z-index: 4;
+ }
+#ppl2{
+   position: absolute;
+   background-color: rgb(168, 168, 168);
+   padding: 250px 0.1px;
+   top: 0px;
+   right: 0px;
+   z-index: 4;
+}
+
+
+
+
+
+#p2s1{
+   position: absolute;
+   background-color: rgb(168, 168, 168);
+   padding: 0.5px 30px;
+   top: 50px;
+   left: 0px;
+   z-index: 4;
+ }
+ #p2s2{
+   position: absolute;
+   background-color: rgb(168, 168, 168);
+   padding: 0.8px 30px;
+   top: 100px;
+   left: 0px;
+   z-index: 4;
+ }
+ #p2s3{
+   position: absolute;
+   background-color: rgb(168, 168, 168);
+   padding: 0.8px 30px;
+   top: 150px;
+   left: 0px;
+   z-index: 4;
+ }
+ #p2s4{
+   position: absolute;
+   background-color: rgb(168, 168, 168);
+   padding: 0.8px 30px;
+   top: 200px;
+   left: 0px;
+   z-index: 4;
+ }
+ #p2s5{
+   position: absolute;
+   background-color: rgb(168, 168, 168);
+   padding: 0.8px 30px;
+   top: 250px;
+   left: 0px;
+   z-index: 4;
+ }
+ #p2s6{
+   position: absolute;
+   background-color: rgb(168, 168, 168);
+   padding: 0.8px 30px;
+   top: 300px;
+   left: 0px;
+   z-index: 4;
+ }
+ #p2s7{
+   position: absolute;
+   background-color: rgb(168, 168, 168);
+   padding: 0.8px 30px;
+   top: 350px;
+   left: 0px;
+   z-index: 4;
+ }
+ #p2s8{
+   position: absolute;
+   background-color: rgb(168, 168, 168);
+   padding: 0.8px 30px;
+   top: 400px;
+   left: 0px;
+   z-index: 4;
+ }
+ #p2s9{
+   position: absolute;
+   background-color: rgb(168, 168, 168);
+   padding: 0.8px 30px;
+   top: 440px;
+   left: 0px;
+   z-index: 4;
+ }
+ #p2pl{
+   position: absolute;
+   background-color: rgb(168, 168, 168);
+   padding: 250px 0.1px;
+   top: 0px;
+   left: 0px;
+   z-index: 4;
+ }
+#p2pl2{
+   position: absolute;
+   background-color: rgb(168, 168, 168);
+   padding: 250px 0.1px;
+   top: 0px;
+   right: 0px;
+   z-index: 4;
+}
+#img1{
+   position: absolute;
+   width: 25px;
+   height: 25px;
+   z-index: 7;
+   top: 3px;
+   left: 30px;
+}
+#img2{
+   position: absolute;
+   width: 25px;
+   height: 25px;
+   z-index: 7;
+   top: 3px;
+   right: 45px;
+}
+#line1{
+   background-color:rgb(126, 112, 91);
+   padding: 1px 50px;
+    top: 70px;
+    z-index: -1;
+    left:0px;
+    position: absolute; 
+}
+#line2{
+   background-color:rgb(126, 112, 91);
+   padding: 1px 50px;
+    top: 90px;
+    z-index: -1;
+    left:0px;
+    position: absolute; 
+}
+#line3{
+   background-color:rgb(126, 112, 91);
+   padding: 1px 50px;
+    top: 110px;
+    z-index: -1;
+    left:0px;
+    position: absolute; 
+}
+#line4{
+   background-color:rgb(126, 112, 91);
+   padding: 1px 50px;
+    top: 130px;
+    z-index: -1;
+    left:0px;
+    position: absolute; 
+}
+#line5{
+   background-color:rgb(126, 112, 91);
+   padding: 1px 50px;
+    top: 150px;
+    z-index: -1;
+    left:0px;
+    position: absolute; 
+}
+#line6{
+   background-color:rgb(126, 112, 91);
+   padding: 1px 50px;
+    top: 170px;
+    z-index: -1;
+    left:0px;
+    position: absolute; 
+}
+#line7{
+   background-color:rgb(126, 112, 91);
+   padding: 1px 50px;
+    top: 190px;
+    z-index: -1;
+    left:0px;
+    position: absolute; 
+}
+#line8{
+   background-color:rgb(126, 112, 91);
+   padding: 1px 50px;
+    top: 210px;
+    z-index: -1;
+    left:0px;
+    position: absolute; 
+}
+#line9{
+   background-color:rgb(126, 112, 91);
+   padding: 1px 50px;
+    top: 230px;
+    z-index: -1;
+    left:0px;
+    position: absolute; 
+}
+#line10{
+   background-color:rgb(126, 112, 91);
+   padding: 1px 50px;
+    top: 250px;
+    z-index: -1;
+    left:0px;
+    position: absolute; 
+}
+#line11{
+   background-color:rgb(126, 112, 91);
+   padding: 1px 50px;
+    top: 270px;
+    z-index: -1;
+    left:0px;
+    position: absolute; 
+}
+#line12{
+   background-color:rgb(126, 112, 91);
+   padding: 1px 50px;
+    top: 290px;
+    z-index: -1;
+    left:0px;
+    position: absolute; 
+}
+#line13{
+   background-color:rgb(126, 112, 91);
+   padding: 1px 50px;
+    top: 310px;
+    z-index: -1;
+    left:0px;
+    position: absolute; 
+}
+#line14{
+   background-color:rgb(126, 112, 91);
+   padding: 1px 50px;
+    top: 330px;
+    z-index: -1;
+    left:0px;
+    position: absolute; 
+}
+#line15{
+   background-color:rgb(126, 112, 91);
+   padding: 1px 50px;
+    top: 350px;
+    z-index: -1;
+    left:0px;
+    position: absolute; 
+}
+#line16{
+   background-color:rgb(126, 112, 91);
+   padding: 1px 50px;
+    top: 370px;
+    z-index: -1;
+    left:0px;
+    position: absolute; 
+}
+#line17{
+   background-color:rgb(126, 112, 91);
+   padding: 1px 50px;
+    top: 390px;
+    z-index: -1;
+    left:0px;
+    position: absolute; 
+}
+#line18{
+   background-color:rgb(126, 112, 91);
+   padding: 1px 50px;
+    top: 410px;
+    z-index: -1;
+    left:0px;
+    position: absolute; 
+}
+#line19{
+   background-color:rgb(126, 112, 91);
+   padding: 1px 50px;
+    top: 430px;
+    z-index: -1;
+    left:0px;
+    position: absolute; 
+}
+#line20{
+   background-color:rgb(126, 112, 91);
+   padding: 1px 50px;
+    top: 450px;
+    z-index: -1;
+    left:0px;
+    position: absolute; 
+}
+#line21{
+   background-color:rgb(126, 112, 91);
+   padding: 1px 50px;
+    top: 470px;
+    z-index: -1;
+    left:0px;
+    position: absolute; 
+}
+#line22{
+   background-color:rgb(126, 112, 91);
+   padding: 1px 50px;
+    top: 490px;
+    z-index: -1;
+    left:0px;
+    position: absolute; 
+}
+#ground{
+   background-color: rgb(217, 207, 170);
+   position: absolute;
+   padding: 5px 160px;
+   bottom: 0px;
+   left: 800px;
+}
+#g1{
+   background-color: rgb(239, 238, 234);
+   position: absolute;
+   padding: 1px 160px;
+   top: 0px;
+   left: 0px;
+   z-index: 0;
+}
+#ground2{
+   background-color: rgb(218, 214, 200);
+   position: absolute;
+   padding: 10px 160px;
+   bottom: 10px;
+   left: 800px;
+}
+#wall1{
+   background-color: rgb(156, 155, 148);
+   position: absolute;
+   padding: 40px 55px;
+   left: 900px;
+   bottom: 30px;
+   z-index: 0;
+}
+#whh{
+   background-color: rgb(211, 210, 192);
+   position: absolute;
+   padding: 5px 55px;
+   left: 0px;
+   top: 0px;
+   z-index: 0;
+}
+#pole1{
+   background-color: rgb(252, 252, 249);
+   position: absolute;
+   padding: 40px 2px;
+   left: 1010px;
+   bottom: 30px;
+   z-index: 0;
+}
+#pole2{
+   background-color: rgb(252, 252, 249);
+   position: absolute;
+   padding: 20px .8px;
+   left: 1009px;
+   bottom: 110px;
+   z-index: 0;
+}
+#ladder1{
+   background-color: rgb(232, 230, 230);
+   position: absolute;
+   padding: 1px 60px;
+   left: 1010px;
+   bottom: 30px;
+   z-index: -1;
+}
+#ladder2{
+   background-color: rgb(232, 230, 230);
+   position: absolute;
+   padding: 1px 60px;
+   left: 1010px;
+   bottom: 40px;
+   z-index: -1;
+}
+#ladder3{
+   background-color: rgb(232, 230, 230);
+   position: absolute;
+   padding: 1px 60px;
+   left: 1010px;
+   bottom: 50px;
+   z-index: -1;
+}
+#ladder4{
+   background-color: rgb(232, 230, 230);
+   position: absolute;
+   padding: 1px 60px;
+   left: 1010px;
+   bottom: 60px;
+   z-index: -1;
+}
+#ladder5{
+   background-color: rgb(232, 230, 230);
+   position: absolute;
+   padding: 1px 60px;
+   left: 1010px;
+   bottom: 70px;
+   z-index: -1;
+}
+#ladder6{
+   background-color: rgb(232, 230, 230);
+   position: absolute;
+   padding: 1px 60px;
+   left: 1010px;
+   bottom: 80px;
+   z-index: -1;
+}
+#twindow{
+   background-color: rgb(88, 86, 86);
+    padding: 12px 20px;
+    bottom: 125px;
+    z-index: 0;
+    left: 1010px;
+    position: absolute;
+    z-index: 0;
+}
+#twh{
+   background-color: rgb(255, 255, 255);
+   padding: 1px 20px;
+   top: 0px;
+   z-index: 0;
+   left: 0px;
+   position: absolute;
+   z-index: 0;
+}
+#twh2{
+   background-color: rgb(255, 255, 255);
+   padding: 12px 0.6px;
+   top: 0px;
+   z-index: 0;
+   left: 10px;
+   position: absolute;
+   z-index: 0;
+}
+#knob1{
+   background-color: aliceblue;
+   position: absolute;
+   padding: 5px 1px;
+   left: 4px;
+   top: 30px;
+   z-index: 2;
+   border-radius: 10px;
+}
+#knob2{
+   background-color: aliceblue;
+   position: absolute;
+   padding: 5px 1px;
+   left: 4px;
+   top: 45px;
+   z-index: 2;
+   border-radius: 10px;
+}
+#x1{
+   position: absolute;
+   background-color: rgb(168, 168, 168);
+   padding: 35px .8px;
+   top: 0px;
+   left: 60px;
+   z-index: 0;
+}
+#x2{
+   position: absolute;
+   background-color: rgb(168, 168, 168);
+   padding: 35px .8px;
+   top: 0px;
+   left: 112px;
+   z-index: 0;
+}
+#x3{
+   position: absolute;
+   background-color: rgb(168, 168, 168);
+   padding: 35px .8px;
+   top: 0px;
+   left: 165px;
+   z-index: 0;
+}
+#xh1{
+   position: absolute;
+   background-color: rgb(168, 168, 168);
+   padding: .8px 120px;
+   top: 40px;
+   left: 0px;
+   z-index: 0;
+}
+#fl2{
+   background-color: rgb(196, 195, 180);
+    padding: 4px 400px;
+    position: absolute;
+    left: 50px;
+    top: 0px;
+    z-index: 2;
+}
+#fl2b{
+   background-color: rgb(196, 195, 180);
+    padding: 4px 250px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+}
+#fl1{
+   background-color: rgb(196, 195, 180);
+   padding: 4px 375px;
+   position: absolute;
+   left: 50px;
+   top: 0px;
+   z-index: 2;
+}
+#fl1b{
+   background-color: rgb(196, 195, 180);
+    padding: 4px 250px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+}
+#fl3{
+   background-color: rgb(196, 195, 180);
+   padding: 4px 400px;
+   position: absolute;
+   left: 50px;
+   top: 0px;
+   z-index: 2;
+}
+#fl3b{
+   background-color: rgb(196, 195, 180);
+    padding: 4px 250px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+}
+#bar1{
+   position: absolute;
+   bottom: 0px;
+   left: 850px;
+   padding: 22px 2px;
+   background-color: rgb(183, 201, 218);
+   z-index: 3;
+}
+#bar2{
+   position: absolute;
+   bottom: 0px;
+   left: 790px;
+   padding: 22px 2px;
+   background-color: rgb(183, 201, 218);
+   z-index: 3;
+}
+#bar3{
+   position: absolute;
+   bottom: 0px;
+   left: 730px;
+   padding: 22px 2px;
+   background-color: rgb(183, 201, 218);
+   z-index: 3;
+}
+#bar4{
+   position: absolute;
+   bottom: 0px;
+   left: 670px;
+   padding: 22px 2px;
+   background-color: rgb(183, 201, 218);
+   z-index: 3;
+}
+#bar5{
+   position: absolute;
+   bottom: 0px;
+   left: 610px;
+   padding: 22px 2px;
+   background-color: rgb(183, 201, 218);
+   z-index: 3;
+}
+#vbar1{
+   position: absolute;
+   bottom: 40px;
+   left: 610px;
+   padding: 2px 122px;
+   background-color: rgb(183, 201, 218);
+   z-index: 3;
+}
+#vbar2{
+   position: absolute;
+   bottom: 30px;
+   left: 610px;
+   padding: 2px 122px;
+   background-color: rgb(183, 201, 218);
+   z-index: 3;
+}
+#field{
+   padding: 117px 1000px;
+   background-color: rgb(121, 124, 126);
+   bottom: -23px;
+   left: -10px;
+   position: absolute;
+   z-index: -1;
+   animation-name: fieldbg;
+   animation-iteration-count: infinite;
+   animation-duration: 20s;
+}
+@keyframes fieldbg{
+0%{
+  background-color: rgb(121, 124, 126);
+}
+50%{
+  background-color: rgb(59, 59, 59);
+}
+100%{
+  background-color: rgb(121, 124, 126);
+}
+}
+#cloud1{
+   background-color: transparent;
+   position: absolute;
+   padding: 50px 100px;
+   top: 10px;
+   left: 100px;
+   animation-name: cloudy;
+   animation-iteration-count: infinite;
+   animation-duration: 5s;
+   z-index: -1;
+}
+
+#cir1{
+   padding: 20px 20px;
+   background-color: rgb(215, 231, 245);
+   border-radius: 90px;
+}
+#cir2{
+   padding: 20px 20px;
+   background-color: rgb(215, 231, 245);
+   border-radius: 90px;
+   position: absolute;
+   top: 40px;
+   left: 70px;
+}
+#cir3{
+   padding: 20px 20px;
+   background-color: rgb(215, 231, 245);
+   border-radius: 90px;
+   position: absolute;
+   top: 30px;
+   left: 100px;
+}
+#cir4{
+   padding: 20px 20px;
+   background-color: rgb(215, 231, 245);
+   border-radius: 90px;
+   position: absolute;
+   top: 70px;
+   left: 80px;
+}
+#cir5{
+   padding: 20px 20px;
+   background-color: rgb(215, 231, 245);
+   border-radius: 90px;
+   position: absolute;
+   top: 70px;
+   left: 110px;
+}
+#cir6{
+   padding: 20px 20px;
+   background-color: rgb(215, 231, 245);
+   border-radius: 90px;
+   position: absolute;
+   top: 50px;
+   left: 120px;
+}
+@keyframes cloudy{
+   0%{
+      position: absolute;
+      top: 10px;
+      left: 100px;
+
+   }
+   100%{
+      position: absolute;
+      top: -100px;
+      left: 210px;
+      opacity: 0%;
+      color: aliceblue;
+   }
+
+}
+#clou2{ 
+   background-color: transparent;
+   position: absolute;
+   padding: 50px 100px;
+   top: 10px;
+   left: 500px;
+   animation-name: cloudd;
+   animation-iteration-count: infinite;
+   animation-duration: 7s;
+   z-index: -1;
+}
+#cir12{
+   padding: 20px 20px;
+   background-color: rgb(215, 231, 245);
+   border-radius: 90px;
+}
+#cir22{
+   padding: 20px 20px;
+   background-color: rgb(215, 231, 245);
+   border-radius: 90px;
+   position: absolute;
+   top: 40px;
+   left: 70px;
+}
+#cir32{
+   padding: 20px 20px;
+   background-color: rgb(215, 231, 245);
+   border-radius: 90px;
+   position: absolute;
+   top: 30px;
+   left: 100px;
+}
+#cir42{
+   padding: 20px 20px;
+   background-color: rgb(215, 231, 245);
+   border-radius: 90px;
+   position: absolute;
+   top: 70px;
+   left: 80px;
+}
+#cir52{
+   padding: 20px 20px;
+   background-color: rgb(215, 231, 245);
+   border-radius: 90px;
+   position: absolute;
+   top: 70px;
+   left: 110px;
+}
+#cir62{
+   padding: 20px 20px;
+   background-color: rgb(215, 231, 245);
+   border-radius: 90px;
+   position: absolute;
+   top: 50px;
+   left: 120px;
+}
+@keyframes cloudd {
+   0%{
+      position: absolute;
+      top: 10px;
+      left: 500px;
+
+   }
+   100%{
+      position: absolute;
+      top: -100px;
+      left: 610px;
+      opacity: 0%;
+      color: aliceblue;
+   }
+}
+
+#clo3{ 
+   background-color: transparent;
+   position: absolute;
+   padding: 50px 100px;
+   top: 10px;
+   left: 700px;
+   animation-name: cloudb;
+   animation-iteration-count: infinite;
+   animation-duration: 6s;
+   z-index: -1;
+}
+#cir13{
+   padding: 30px 20px;
+   background-color: rgb(215, 231, 245);
+   border-radius: 90px;
+}
+#cir23{
+   padding: 30px 30px;
+   background-color: rgb(215, 231, 245);
+   border-radius: 90px;
+   position: absolute;
+   top: 40px;
+   left: 70px;
+}
+#cir33{
+   padding: 30px 30px;
+   background-color: rgb(215, 231, 245);
+   border-radius: 90px;
+   position: absolute;
+   top: 30px;
+   left: 100px;
+}
+#cir43{
+   padding: 40px 40px;
+   background-color: rgb(215, 231, 245);
+   border-radius: 90px;
+   position: absolute;
+   top: 70px;
+   left: 80px;
+}
+#cir53{
+   padding: 20px 20px;
+   background-color: rgb(215, 231, 245);
+   border-radius: 90px;
+   position: absolute;
+   top: 70px;
+   left: 110px;
+}
+#cir63{
+   padding: 40px 40px;
+   background-color: rgb(215, 231, 245);
+   border-radius: 90px;
+   position: absolute;
+   top: 50px;
+   left: 120px;
+}
+@keyframes cloudb{
+   0%{
+      position: absolute;
+      top: 10px;
+      left: 700px;
+
+   }
+   100%{
+      position: absolute;
+      top: -100px;
+      left: 810px;
+      opacity: 0%;
+      color: aliceblue;
+   }
+}
+#cl44{
+   background-color: transparent;
+   position: absolute;
+   padding: 50px 100px;
+   top: 10px;
+   left: 1000px;
+   animation-name: cloudb4;
+   animation-iteration-count: infinite;
+   animation-duration: 10s;
+   z-index: -1;
+}
+#cir14{
+   padding: 30px 20px;
+   background-color: rgb(215, 231, 245);
+   border-radius: 90px;
+}
+#cir24{
+   padding: 20px 20px;
+   background-color: rgb(215, 231, 245);
+   border-radius: 90px;
+   position: absolute;
+   top: 40px;
+   left: 70px;
+}
+#cir34{
+   padding: 20px 20px;
+   background-color: rgb(215, 231, 245);
+   border-radius: 90px;
+   position: absolute;
+   top: 30px;
+   left: 100px;
+}
+#cir44{
+   padding: 40px 40px;
+   background-color: rgb(215, 231, 245);
+   border-radius: 90px;
+   position: absolute;
+   top: 70px;
+   left: 80px;
+}
+#cir54{
+   padding: 20px 20px;
+   background-color: rgb(215, 231, 245);
+   border-radius: 90px;
+   position: absolute;
+   top: 70px;
+   left: 110px;
+}
+#cir64{
+   padding: 20px 20px;
+   background-color: rgb(215, 231, 245);
+   border-radius: 90px;
+   position: absolute;
+   top: 50px;
+   left: 120px;
+}
+@keyframes cloudb4{
+   0%{
+      position: absolute;
+      top: 10px;
+      left: 1000px;
+
+   }
+  
+   100%{
+      position: absolute;
+      top: -100px;
+      left: 1110px;
+      opacity: 0%;
+      color: aliceblue;
+   }
+}
+#car{
+   padding: 50px 130px;
+   background-color: rgb(255, 254, 211);
+   position: absolute;
+   bottom: 100px;
+   right: -700px;
+   z-index: 1;
+   border-radius: 20px;
+   animation-name: cars;
+   animation-iteration-count: infinite;
+   animation-duration: 8s;
+}
+
+#cspace{
+   position: absolute;
+   top: 0px;
+   left: -15px;
+   padding: 20px 30px;
+   background-color: rgb(121, 124, 126);
+   border-bottom-right-radius: 10px;
+   animation-name: fieldbg;
+   animation-iteration-count: infinite;
+   animation-duration: 20s;
+}
+#carrad{
+   background-color:rgb(255, 254, 211);
+   position: absolute;
+   padding: 30px 50px;
+   border-radius: 20px;
+   bottom: 0px;
+   left: -20px;
+}
+#wheell{
+   position: absolute;
+   bottom: -20px;
+   left: 10px;
+   padding: 20px 20px;
+   border-radius: 90px;
+   background-color: rgb(66, 64, 64);
+   z-index: 3;
+}
+#knot{
+   padding: 10px 10px;
+   border-radius: 20px;
+   background-color: aliceblue;
+   z-index: 4;
+}
+#wheelr{
+   position: absolute;
+   bottom: -20px;
+   right: 10px;
+   padding: 20px 20px;
+   border-radius: 90px;
+   background-color: rgb(66, 64, 64);
+   z-index: 3;
+}
+#knot2{
+   padding: 10px 10px;
+   border-radius: 20px;
+   background-color: aliceblue;
+   z-index: 4;
+}
+#carw{
+   position: absolute;
+   top: 5px;
+   right: 15px;
+   padding: 17px 95px;
+   background-color: rgb(180, 185, 190);
+   border-top-right-radius: 10px;
+}
+#div1{
+   position: absolute;
+   top: 0px;
+   right: 35px;
+   padding: 17px 1px;
+   background-color: aliceblue;
+}
+#div2{
+   position: absolute;
+   top: 0px;
+   right: 75px;
+   padding: 17px 1px;
+   background-color: aliceblue;
+}
+#div3{
+   position: absolute;
+   top: 0px;
+   right: 115px;
+   padding: 17px 1px;
+   background-color: aliceblue;
+}
+#div4{
+   position: absolute;
+   top: 0px;
+   right: 155px;
+   padding: 17px 1px;
+   background-color: aliceblue;
+}
+@keyframes cars{
+   0%{
+      bottom: 100px;
+      right: -1000px;
+   }
+   100%{
+      bottom: 100px;
+      right: 1400px;
+   }
+}
+#roofw{
+   background-color: rgb(247, 246, 226)   ;
+   padding: 20px 930px;
+   left: -100px;
+   position: absolute;
+   top: -20px;
+   animation-name: buildingbg;
+   animation-iteration-count: infinite;
+   animation-duration: 20s;
+}
+@keyframes buildingbg{
+0%{
+  background-color: rgb(225, 223, 203);
+}
+50%{
+  background-color: rgb(183, 183, 183);
+}
+100%{
+  background-color: rgb(225, 223, 203);
+}
+}
+@keyframes bgtri{
+   0%{
+      background-color: rgb(151, 198, 240);
+   }
+   50%{
+      background-color: rgb(5, 14, 21);
+   }
+    100%{
+      background-color: rgb(151, 198, 240);
+    }
+}
+#roofr{
+   background-color: rgb(145, 28, 28);
+   padding: 10px 940px;
+   left: -100px;
+   position: absolute;
+   top: -31px;
+   animation-name: roofbg;
+   animation-iteration-count: infinite;
+   animation-duration: 20s;
+}
+@keyframes roofbg{
+0%{
+  background-color: rgb(145, 28, 28);
+}
+50%{
+  background-color: rgb(92, 18, 18);
+}
+100%{
+  background-color: rgb(145, 28, 28);
+}
+}
+#trying{
+   background-color: black;
+   padding: 100px 100px;
+   position: absolute;
+   top: -50px;
+   right: -230px;
+   z-index: 0;
+   animation-name: bgtri;
+   animation-duration: 20s;
+   animation-iteration-count: infinite;
+   rotate: 60deg;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+ 
+ 
